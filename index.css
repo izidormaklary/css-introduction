@@ -60,11 +60,12 @@ h1 {
   div.bottom {
    
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 70px;
-    width: 60%;
-    height: 70px;
+    width: 100%;
+    width: 400px;
+    height: 50px;
     
     background-color: rgb(0, 0, 0) ;
     transition-duration: 1s;
@@ -86,7 +87,7 @@ h1 {
   
   
   div.tldr{
-    margin-top: 40px;
+    margin-top: 150px;
     margin: auto;
    
     height: auto;   
@@ -98,6 +99,7 @@ h1 {
     white-space:nowrap;
     margin-bottom: 30px;
     clear: both;
+    max-width: 1500px;
   }
   p.tldr {
     margin-left: 10px;
@@ -120,16 +122,14 @@ h1 {
     padding: 0%;
     background-color: black;
   }
-  div.placeholder {
-    height: 110px;
-  }
+  
   html, body {
     height: 100%; 
     margin: 0;
   }
   div.wrapper {
     min-height: 100%;
-    margin-bottom: 50px;
+    margin-bottom: -50px;
     background-color: transparent;
   }
   a {
