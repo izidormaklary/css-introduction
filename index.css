@@ -1,12 +1,12 @@
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   
   background: linear-gradient(90deg, white,rgba(165, 207, 255, 0.596));
 }
 div.header {
- 
+  padding-top: 10px;
   margin-bottom: 20px;
   margin-left: 0;
   position: relative;
@@ -14,8 +14,9 @@ div.header {
   width: 100%;
   height: 30px;
   height: auto;
-  background: rgb(255, 255, 255);
-  
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 30px;
+  vertical-align: center;
 }
 ul {
   
@@ -24,16 +25,24 @@ p {
   padding-left: 20px;
   padding-right: 20px;
 }
+h1 {
+ display: inline;
+ letter-spacing: 1em;
+}
 i {
   display: inline;
+  float: right;
+  margin: 30px;
+  
 }
 div.table {
   padding-left: 20px;
-  padding-right: 20px;
+  
   width: 40%;
-  min-width: 350px;
+ 
   text-align: center;
   
+ 
   border-bottom: rgb(0, 0, 0) solid;
 }
 table {
@@ -44,17 +53,22 @@ table {
 }
 td {
   text-align: right;
+  padding-right: 20px;
 }
 
 img {
-  max-height: 60%;
+  
   width: 100%;
-  display: block;
+  max-width: 600px;
+  float: inline-end;
+  margin-left: auto;
+  margin-right: auto;
+  
   
 }
 div {
   
-  background: rgba(231, 170, 204, 0.39);
+  background: rgba(253, 253, 253, 0.199);
 }
 div.bottom {
   text-align: center;
@@ -81,7 +95,7 @@ td {
   text-align: right;
 }
 tr:hover {
-  background-color: #ddd;
+  background-color: rgb(255, 255, 255);
 }
 
 div.rightside {
@@ -89,21 +103,31 @@ div.rightside {
   color: blanchedalmond;
   width: 30%;
   float: right;
+  margin-right: 5%;
+  max-width: 600px;
+  align-content: center;
+  clear: both;
+  
 }
 p.tldr {
   margin-left: 10px;
+  line-height: 60px;
+  
+  
 
   
 }
 h3 {
   width: auto;
-  background-color: rgba(255, 255, 255, 0.438);
-  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  
   margin: 0px;
+  border-bottom: black  solid;
+  
 }
 h3.tldr {
   display: inline;
-  clear: left;
+  
 
   font-size: 50px;
   padding: 0%;
@@ -131,22 +155,28 @@ ul {
 }
 
 div.content {
-  border-bottom: rgb(0, 0, 0) solid;
+ 
+  margin-bottom: 50px;
   
   
 }
 
 div.contentwrap {
-  margin-left: 10%;
   
-  min-width: ;
-  text-align: center;
+  margin-left: 5%;
+  
+  min-width: 400px;
+  text-align: ;
   margin-right: 50%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.027);
   width: 50%;
   
     
 }
 div.contentwrap:first-child {
-  clear: both;
+  float: left;
+}
+div.rightside:hover {
+  width: 30%;
+  
 }
