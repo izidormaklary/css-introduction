@@ -1,152 +1,152 @@
-h1 {
-    margin-left: 40px;
-    margin-top: 40px;
-  }
-  h3 {
-    
-  }
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    background: rgba(148, 202, 233, 0.705);
-    
-  }
-  div.header{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 0;
-    position: relative;
-    position: ;
-    width: 100%;
-    height: 30px;
-    height: auto;
-    background-color: grey;
-  }
-  ul {
-    margin-left: 70px;
-  }
-  p {
-    margin-left: 70px;
-  }
-  i {
-    margin: 50px;
-  }
-  div.table {
-    margin-left: 30px;
-    width: 60%;
-    text-align: center;
-  }
-  table { 
-    
-    margin-left: auto;
-    margin-right: auto;
-    
-    min-width: 40%;
-  
-  }
-  td {
-    padding: 10px;
-  }
-  
-  img {
-    max-width: 30%;
-    width: auto;
-    border-radius: 40px;
-    
-  }
-  div {
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.651);
-  }
-  div.bottom {
-   
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -70px;
-    width: 100%;
-    width: 400px;
-    height: 50px;
-    
-    background-color: rgb(0, 0, 0) ;
-    transition-duration: 1s;
-    border-left: 0px;
-    vertical-align:  middle ;
-    color: white;
-  }
-  p.bottom { 
-    margin: 0%;
-  }
-   th {
-    border-right: 2px solid black;
 
-  }
-  td {
-    text-align: right;
-  }
-  tr:hover {background-color: #ddd;}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
   
-  
-  div.tldr{
-    margin-top: 150px;
-    margin: auto;
-   
-    height: auto;   
-    min-width: 50%; 
-    max-width: 80%;
-    overflow: scroll;
-    background: #000;
-    color: blanchedalmond;
-    white-space:nowrap;
-    margin-bottom: 30px;
-    clear: both;
-    max-width: 1500px;
-  }
-  p.tldr {
-    margin-left: 10px;
-    float: right;
-    display: inline
-    
-    
-  }
-  h3 {
-    width: auto;
-    background-color: rgb(255, 255, 255);
-    border-radius: 3px;
-    margin: 0px;
-  }
-  h3.tldr {
-    display: inline;
-    clear: left;
-    
-    font-size: 50px;
-    padding: 0%;
-    background-color: black;
-  }
-  
-  html, body {
-    height: 100%; 
-    margin: 0;
-  }
-  div.wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
-    background-color: transparent;
-  }
-  a {
-    color: black;
-  }
-  div.bottom:hover {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  ul {
-    white-space:;
-  }
+  background: linear-gradient(90deg, white,rgba(165, 207, 255, 0.596));
+}
+div.header {
  
-  div.content {
-   
-    float: left;
-    width: 500px;
-    margin: 30px;
-    text-align: center;
-  }
+  margin-bottom: 20px;
+  margin-left: 0;
+  position: relative;
+  
+  width: 100%;
+  height: 30px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  
+}
+ul {
+  
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+i {
+  display: inline;
+}
+div.table {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
+  min-width: 350px;
+  text-align: center;
+  
+  border-bottom: rgb(0, 0, 0) solid;
+}
+table {
+ 
+ width: 100%;
+  padding: 10px;
+ 
+}
+td {
+  text-align: right;
+}
+
+img {
+  max-height: 60%;
+  width: 100%;
+  display: block;
+  
+}
+div {
+  
+  background: rgba(231, 170, 204, 0.39);
+}
+div.bottom {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -70px;
+  width: 100%;
+  width: 400px;
+  height: 50px;
+
+  background-color: rgb(0, 0, 0);
+  transition-duration: 1s;
+  border-left: 0px;
+  vertical-align: middle;
+  color: white;
+}
+p.bottom {
+  margin: 0%;
+}
+th {
+  border-right: 2px solid black;
+}
+td {
+  text-align: right;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+div.rightside {
+  background: #000;
+  color: blanchedalmond;
+  width: 30%;
+  float: right;
+}
+p.tldr {
+  margin-left: 10px;
+
+  
+}
+h3 {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.438);
+  border-radius: 3px;
+  margin: 0px;
+}
+h3.tldr {
+  display: inline;
+  clear: left;
+
+  font-size: 50px;
+  padding: 0%;
+  background-color: black;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+div.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+  background-color: transparent;
+}
+a {
+  color: black;
+}
+div.bottom:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+ul {
+  white-space: ;
+}
+
+div.content {
+  border-bottom: rgb(0, 0, 0) solid;
+  
+  
+}
+
+div.contentwrap {
+  margin-left: 10%;
+  
+  min-width: ;
+  text-align: center;
+  margin-right: 50%;
+  background-color: white;
+  width: 50%;
+  
+    
+}
+div.contentwrap:first-child {
+  clear: both;
+}
